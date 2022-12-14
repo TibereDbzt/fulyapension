@@ -1,0 +1,78 @@
+{
+  "id": "contact",
+  "label": "Contact",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "phone_number": {
+        "type": "Text",
+        "config": {
+          "label": "Phone Number",
+          "placeholder": ""
+        }
+      },
+      "postal_address": {
+        "type": "Text",
+        "config": {
+          "label": "Postal Address",
+          "placeholder": ""
+        }
+      },
+      "email": {
+        "type": "Text",
+        "config": {
+          "label": "Email",
+          "placeholder": ""
+        }
+      },
+      "instagram_link": {
+        "type": "Link",
+        "config": {
+          "label": "Instagram Link",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "facebook_link": {
+        "type": "Link",
+        "config": {
+          "label": "Facebook Link",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "youtube_link": {
+        "type": "Link",
+        "config": {
+          "label": "Youtube Link",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "whatsapp_link": {
+        "type": "Link",
+        "config": {
+          "label": "WhatsApp Link",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "googlemaps_link": {
+        "type": "Link",
+        "config": {
+          "label": "GoogleMaps Link",
+          "placeholder": "",
+          "select": null
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {}
+        }
+      }
+    }
+  }
+}

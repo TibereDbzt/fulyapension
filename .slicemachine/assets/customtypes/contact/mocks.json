@@ -1,0 +1,39 @@
+{
+  "id": "mock-doc-id",
+  "url": null,
+  "type": "contact",
+  "href": null,
+  "tags": [],
+  "first_publication_date": "1970-01-01T00:00:01+0000",
+  "last_publication_date": "1970-01-01T00:00:01+0000",
+  "slugs": [],
+  "linked_documents": [],
+  "lang": "en-us",
+  "alternate_languages": [],
+  "data": {
+    "phone_number": "examine",
+    "postal_address": "cold",
+    "email": "perfectly",
+    "instagram_link": {
+      "link_type": "Web",
+      "url": "https://prismic.io"
+    },
+    "facebook_link": {
+      "link_type": "Web",
+      "url": "https://prismic.io"
+    },
+    "youtube_link": {
+      "link_type": "Web",
+      "url": "http://twitter.com"
+    },
+    "whatsapp_link": {
+      "link_type": "Web",
+      "url": "https://slicemachine.dev"
+    },
+    "googlemaps_link": {
+      "link_type": "Web",
+      "url": "https://slicemachine.dev"
+    },
+    "slices": []
+  }
+}

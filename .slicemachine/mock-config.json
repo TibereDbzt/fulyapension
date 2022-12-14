@@ -1,0 +1,55 @@
+{
+  "_cts": {
+    "home_page": {},
+    "contact": {},
+    "navigation": {}
+  },
+  "slices": {
+    "Hero": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "InfiniteImagesSlider": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "UnstructuredTextImages": {
+      "default": {
+        "primary": {}
+      },
+      "spacedOut": {
+        "primary": {}
+      }
+    },
+    "IconsTextsList": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "SpacedUnstructuredTextImages": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "TextImagesSlider": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "CustomerReviews": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "ButtonLinks": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    }
+  }
+}

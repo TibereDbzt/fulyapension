@@ -1,0 +1,48 @@
+{
+  "id": "navigation",
+  "label": "Navigation",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "entries": {
+        "type": "Group",
+        "config": {
+          "label": "Entries",
+          "fields": {
+            "entry_name": {
+              "type": "Text",
+              "config": {
+                "label": "Entry Name",
+                "placeholder": ""
+              }
+            },
+            "entry_target": {
+              "type": "Text",
+              "config": {
+                "label": "Entry Target",
+                "placeholder": ""
+              }
+            },
+            "button_look": {
+              "type": "Boolean",
+              "config": {
+                "label": "Button Look",
+                "default_value": false,
+                "placeholder_true": "true",
+                "placeholder_false": "false"
+              }
+            }
+          }
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {}
+        }
+      }
+    }
+  }
+}

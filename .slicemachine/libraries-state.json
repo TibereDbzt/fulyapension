@@ -1,0 +1,972 @@
+{
+  "slices": {
+    "components": {
+      "button_links": {
+        "library": "slices",
+        "id": "button_links",
+        "name": "ButtonLinks",
+        "description": "ButtonLinks",
+        "model": {
+          "id": "button_links",
+          "type": "SharedSlice",
+          "name": "ButtonLinks",
+          "description": "ButtonLinks",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "ButtonLinks",
+              "primary": {
+                "section_id": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Section ID",
+                    "placeholder": ""
+                  }
+                },
+                "title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "items": {
+                "link": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Link",
+                    "placeholder": "",
+                    "select": null
+                  }
+                },
+                "icon": {
+                  "type": "Image",
+                  "config": {
+                    "label": "icon",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "color": {
+                  "type": "Select",
+                  "config": {
+                    "label": "Color",
+                    "placeholder": "Closest matches the brand's colour",
+                    "options": [
+                      "Blue",
+                      "Red",
+                      "Green",
+                      "Yellow"
+                    ]
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {
+                "link": {
+                  "link_type": "Web",
+                  "url": "http://google.com"
+                },
+                "icon": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1448932223592-d1fc686e76ea"
+                },
+                "color": "Red"
+              }
+            ],
+            "primary": {
+              "section_id": "refer",
+              "title": "today"
+            },
+            "slice_type": "button_links"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/tibere/Desktop/web/tibere/fulyapension/slices/ButtonLinks/default/preview.png",
+            "width": 2256,
+            "height": 1126
+          }
+        }
+      },
+      "customer_reviews": {
+        "library": "slices",
+        "id": "customer_reviews",
+        "name": "CustomerReviews",
+        "description": "CustomerReviews",
+        "model": {
+          "id": "customer_reviews",
+          "type": "SharedSlice",
+          "name": "CustomerReviews",
+          "description": "CustomerReviews",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "CustomerReviews",
+              "primary": {
+                "section_id": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Section ID",
+                    "placeholder": ""
+                  }
+                },
+                "title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "items": {
+                "review_link": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Review Link",
+                    "placeholder": "",
+                    "allowTargetBlank": false,
+                    "select": null
+                  }
+                },
+                "platform_name": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Platform Name",
+                    "placeholder": ""
+                  }
+                },
+                "customer_name": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Customer Name",
+                    "placeholder": ""
+                  }
+                },
+                "customer_image": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Customer Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "stars": {
+                  "type": "Number",
+                  "config": {
+                    "label": "Stars",
+                    "placeholder": "max 5"
+                  }
+                },
+                "review_text": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Review Text",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {
+                "review_link": {
+                  "link_type": "Web",
+                  "url": "https://prismic.io"
+                },
+                "platform_name": "during",
+                "customer_name": "share",
+                "customer_image": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869"
+                },
+                "stars": 22,
+                "review_text": "dull"
+              }
+            ],
+            "primary": {
+              "section_id": "cover",
+              "title": "exercise"
+            },
+            "slice_type": "customer_reviews"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/tibere/Desktop/web/tibere/fulyapension/slices/CustomerReviews/default/preview.png",
+            "width": 1914,
+            "height": 1232
+          }
+        }
+      },
+      "hero": {
+        "library": "slices",
+        "id": "hero",
+        "name": "Hero",
+        "description": "Hero",
+        "model": {
+          "id": "hero",
+          "type": "SharedSlice",
+          "name": "Hero",
+          "description": "Hero",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Hero",
+              "primary": {
+                "section_id": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Section ID",
+                    "placeholder": ""
+                  }
+                },
+                "title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": ""
+                  }
+                },
+                "subtitle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Subtitle",
+                    "placeholder": ""
+                  }
+                },
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {}
+            ],
+            "primary": {
+              "section_id": "spend",
+              "title": "label",
+              "subtitle": "its",
+              "image": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68"
+              }
+            },
+            "slice_type": "hero"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/tibere/Desktop/web/tibere/fulyapension/slices/Hero/default/preview.png",
+            "width": 2242,
+            "height": 1570
+          }
+        }
+      },
+      "icons_texts_list": {
+        "library": "slices",
+        "id": "icons_texts_list",
+        "name": "IconsTextsList",
+        "description": "IconsTextsList",
+        "model": {
+          "id": "icons_texts_list",
+          "type": "SharedSlice",
+          "name": "IconsTextsList",
+          "description": "IconsTextsList",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "IconsTextsList",
+              "primary": {
+                "section_id": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Section ID",
+                    "placeholder": ""
+                  }
+                },
+                "title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": ""
+                  }
+                },
+                "description": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "items": {
+                "text": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Text",
+                    "placeholder": ""
+                  }
+                },
+                "icon": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Icon",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {
+                "text": "fur",
+                "icon": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab"
+                }
+              }
+            ],
+            "primary": {
+              "section_id": "escape",
+              "title": "machine",
+              "description": "seen"
+            },
+            "slice_type": "icons_texts_list"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/tibere/Desktop/web/tibere/fulyapension/slices/IconsTextsList/default/preview.png",
+            "width": 2046,
+            "height": 1092
+          }
+        }
+      },
+      "infinite_images_slider": {
+        "library": "slices",
+        "id": "infinite_images_slider",
+        "name": "InfiniteImagesSlider",
+        "description": "InfiniteImagesSlider",
+        "model": {
+          "id": "infinite_images_slider",
+          "type": "SharedSlice",
+          "name": "InfiniteImagesSlider",
+          "description": "InfiniteImagesSlider",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "InfiniteImagesSlider",
+              "primary": {
+                "section_id": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Section ID",
+                    "placeholder": ""
+                  }
+                },
+                "auto": {
+                  "type": "Boolean",
+                  "config": {
+                    "label": "Auto",
+                    "default_value": false,
+                    "placeholder_true": "true",
+                    "placeholder_false": "false"
+                  }
+                }
+              },
+              "items": {
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1515378960530-7c0da6231fb1"
+                }
+              }
+            ],
+            "primary": {
+              "section_id": "stand",
+              "auto": false
+            },
+            "slice_type": "infinite_images_slider"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/tibere/Desktop/web/tibere/fulyapension/slices/InfiniteImagesSlider/default/preview.png",
+            "width": 1624,
+            "height": 414
+          }
+        }
+      },
+      "spaced_unstructured_text_images": {
+        "library": "slices",
+        "id": "spaced_unstructured_text_images",
+        "name": "SpacedUnstructuredTextImages",
+        "description": "SpacedUnstructuredTextImages",
+        "model": {
+          "id": "spaced_unstructured_text_images",
+          "type": "SharedSlice",
+          "name": "SpacedUnstructuredTextImages",
+          "description": "SpacedUnstructuredTextImages",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "SpacedUnstructuredTextImages",
+              "primary": {
+                "section_id": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Section ID",
+                    "placeholder": ""
+                  }
+                },
+                "title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": ""
+                  }
+                },
+                "description": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": ""
+                  }
+                },
+                "toprightimage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "TopRightImage",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "leftimage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "LeftImage",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "textleftimage": {
+                  "type": "Text",
+                  "config": {
+                    "label": "TextLeftImage",
+                    "placeholder": ""
+                  }
+                },
+                "rightimage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "RightImage",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "bottomimage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "BottomImage",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "textbottomimage": {
+                  "type": "Text",
+                  "config": {
+                    "label": "TextBottomImage",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {}
+            ],
+            "primary": {
+              "section_id": "vapor",
+              "title": "explain",
+              "description": "list",
+              "toprightimage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5"
+              },
+              "leftimage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1493119508027-2b584f234d6c"
+              },
+              "textleftimage": "view",
+              "rightimage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db"
+              },
+              "bottomimage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853"
+              },
+              "textbottomimage": "lesson"
+            },
+            "slice_type": "spaced_unstructured_text_images"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/tibere/Desktop/web/tibere/fulyapension/slices/SpacedUnstructuredTextImages/default/preview.png",
+            "width": 1008,
+            "height": 1718
+          }
+        }
+      },
+      "text_images_slider": {
+        "library": "slices",
+        "id": "text_images_slider",
+        "name": "TextImagesSlider",
+        "description": "TextImagesSlider",
+        "model": {
+          "id": "text_images_slider",
+          "type": "SharedSlice",
+          "name": "TextImagesSlider",
+          "description": "TextImagesSlider",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "TextImagesSlider",
+              "primary": {
+                "section_id": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Section ID",
+                    "placeholder": ""
+                  }
+                },
+                "title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": ""
+                  }
+                },
+                "description": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "items": {
+                "title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": ""
+                  }
+                },
+                "description": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": ""
+                  }
+                },
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {
+                "title": "choice",
+                "description": "compound",
+                "image": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": null,
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51"
+                }
+              }
+            ],
+            "primary": {
+              "section_id": "establish",
+              "title": "themselves",
+              "description": "race"
+            },
+            "slice_type": "text_images_slider"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/tibere/Desktop/web/tibere/fulyapension/slices/TextImagesSlider/default/preview.png",
+            "width": 2032,
+            "height": 1558
+          }
+        }
+      },
+      "unstructured_text_images": {
+        "library": "slices",
+        "id": "unstructured_text_images",
+        "name": "UnstructuredTextImages",
+        "description": "UnstructuredTextImages",
+        "model": {
+          "id": "unstructured_text_images",
+          "type": "SharedSlice",
+          "name": "UnstructuredTextImages",
+          "description": "UnstructuredTextImages",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "UnstructuredTextImages",
+              "primary": {
+                "section_id": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Section ID",
+                    "placeholder": ""
+                  }
+                },
+                "title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": ""
+                  }
+                },
+                "description": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": ""
+                  }
+                },
+                "link": {
+                  "type": "Link",
+                  "config": {
+                    "label": "Link",
+                    "placeholder": "",
+                    "select": null
+                  }
+                },
+                "text_link": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Text Link",
+                    "placeholder": ""
+                  }
+                },
+                "topleftimage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "TopLeftImage",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "toprightimage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "TopRightImage",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "bottomleftimage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "BottomLeftImage",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "bottomrightimage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "BottomRightImage",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "bottom_image": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Bottom Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "bottom_title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Bottom Title",
+                    "placeholder": ""
+                  }
+                },
+                "bottom_description": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Bottom Description",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {}
+            ],
+            "primary": {
+              "section_id": "throat",
+              "title": "birth",
+              "description": "primitive",
+              "link": {
+                "link_type": "Web",
+                "url": "http://google.com"
+              },
+              "text_link": "including",
+              "topleftimage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2"
+              },
+              "toprightimage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51"
+              },
+              "bottomleftimage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68"
+              },
+              "bottomrightimage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2"
+              },
+              "bottom_image": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1587653915936-5623ea0b949a"
+              },
+              "bottom_title": "invented",
+              "bottom_description": "meal"
+            },
+            "slice_type": "unstructured_text_images"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/tibere/Desktop/web/tibere/fulyapension/slices/UnstructuredTextImages/default/preview.png",
+            "width": 1228,
+            "height": 1700
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+	"id": "customer_reviews",
+	"type": "SharedSlice",
+	"name": "CustomerReviews",
+	"description": "CustomerReviews",
+	"variations": [
+		{
+			"id": "default",
+			"name": "Default",
+			"docURL": "...",
+			"version": "sktwi1xtmkfgx8626",
+			"description": "CustomerReviews",
+			"primary": {
+				"section_id": {
+					"type": "Text",
+					"config": {
+						"label": "Section ID",
+						"placeholder": ""
+					}
+				},
+				"title": {
+					"type": "Text",
+					"config": {
+						"label": "Title",
+						"placeholder": ""
+					}
+				}
+			},
+			"items": {
+				"review_link": {
+					"type": "Link",
+					"config": {
+						"label": "Review Link",
+						"placeholder": "",
+						"allowTargetBlank": false,
+						"select": null
+					}
+				},
+				"platform_name": {
+					"type": "Text",
+					"config": {
+						"label": "Platform Name",
+						"placeholder": ""
+					}
+				},
+				"customer_name": {
+					"type": "Text",
+					"config": {
+						"label": "Customer Name",
+						"placeholder": ""
+					}
+				},
+				"customer_image": {
+					"type": "Image",
+					"config": {
+						"label": "Customer Image",
+						"constraint": {},
+						"thumbnails": []
+					}
+				},
+				"stars": {
+					"type": "Number",
+					"config": {
+						"label": "Stars",
+						"placeholder": "max 5"
+					}
+				},
+				"review_text": {
+					"type": "Text",
+					"config": {
+						"label": "Review Text",
+						"placeholder": ""
+					}
+				}
+			},
+			"imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+		}
+	]
+}

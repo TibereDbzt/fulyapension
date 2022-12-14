@@ -1,0 +1,109 @@
+{
+  "id": "unstructured_text_images",
+  "type": "SharedSlice",
+  "name": "UnstructuredTextImages",
+  "description": "UnstructuredTextImages",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "UnstructuredTextImages",
+      "primary": {
+        "section_id": {
+          "type": "Text",
+          "config": {
+            "label": "Section ID",
+            "placeholder": ""
+          }
+        },
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title",
+            "placeholder": ""
+          }
+        },
+        "description": {
+          "type": "Text",
+          "config": {
+            "label": "Description",
+            "placeholder": ""
+          }
+        },
+        "link": {
+          "type": "Link",
+          "config": {
+            "label": "Link",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "text_link": {
+          "type": "Text",
+          "config": {
+            "label": "Text Link",
+            "placeholder": ""
+          }
+        },
+        "topleftimage": {
+          "type": "Image",
+          "config": {
+            "label": "TopLeftImage",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "toprightimage": {
+          "type": "Image",
+          "config": {
+            "label": "TopRightImage",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "bottomleftimage": {
+          "type": "Image",
+          "config": {
+            "label": "BottomLeftImage",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "bottomrightimage": {
+          "type": "Image",
+          "config": {
+            "label": "BottomRightImage",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "bottom_image": {
+          "type": "Image",
+          "config": {
+            "label": "Bottom Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "bottom_title": {
+          "type": "Text",
+          "config": {
+            "label": "Bottom Title",
+            "placeholder": ""
+          }
+        },
+        "bottom_description": {
+          "type": "Text",
+          "config": {
+            "label": "Bottom Description",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}
